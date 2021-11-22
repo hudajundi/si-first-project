@@ -1,0 +1,107 @@
+/* header{
+    flex-wrap: nowrap
+}
+h1{
+ text-align: center;
+ 
+}
+
+.theLogo{
+    float: left;
+}
+
+h2{
+    
+
+    float: right;
+} */
+
+body {
+    font-family: Helvetica;
+  }
+  
+  header {
+    background: #444;
+    height: 100px;
+  }
+  h1{
+      text-align: center;
+  }
+  
+  
+  /* header img {
+    
+    margin-top: 15px;
+    margin-right: 30px;
+  } */
+  
+  header ul li {
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 75px; 
+  } 
+  
+  a {
+    text-decoration: none;
+    color: #888;
+    float: right;
+  }
+
+  #theLogo{
+      float: left;
+      height: 100px;
+      width: 100px;
+  }
+/* 
+  .if{
+      display:inline;
+  } */
+
+.if{
+    display: inline-block;
+}
+  #itemDev{
+      width: 200px;
+      height: 700px;
+      border: olive;
+      border: solid;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    ;
+    font-size: large;
+    text-decoration: solid;
+    line-height: 3;
+    background-color: palegoldenrod;
+
+       
+
+  }
+
+
+  img{
+      width: 300px;
+      height: 200px;
+  }
+  /* div{
+      display: flex;
+  } */
+
+  #contentDev{
+      display:inline-flex;
+      width: 1000px;
+      height: 400px;
+      border: solid;
+      background-color: pink;
+      font-size: 30px;
+      font-family: monospace;
+  }
+
+
+  #formDev {
+
+      height: 450px;
+      width: 400px;
+      border: solid;
+      display:flex;
+  }
+  
+  /* #areaDev  */
