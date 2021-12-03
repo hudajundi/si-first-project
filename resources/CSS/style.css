@@ -29,6 +29,143 @@ body {
   
   header ul li{
     display: inline-block;
+    margin-top: 2.5rem;
+    
+    font-size: 1.25rem;
+     display:flexbox;
+    flex-direction: row;
+    justify-content: space-between; 
+  } 
+  
+  a {
+    text-decoration: none;
+    color: #888;
+    float: right;
+    
+  }
+
+  #theLogo{
+      float: left;
+      height: 6.25rem;
+      width: 6.25rem;
+  }
+
+
+  #itemDev{
+     
+     float: left;
+
+
+      width: 12.5rem;
+      height: 37.5rem;
+      border: olive;
+      border: solid;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    ;
+    font-size: 20px;
+    font-style: oblique;
+  
+    /* text-decoration: ; */
+    line-height: 3;
+    /* background-color: 	#E0FFFF; */
+
+       
+
+  }
+
+
+  img{
+      width: 18.75rem;
+      height: 12.5rem;
+      display: inline-block
+  }
+  
+
+  #contentDev{
+    float: left;
+
+    
+      width: 87.5rem;
+      height: 12.5rem;
+      border: solid;
+      background-color:	#cbd9db;
+      font-size: 30px;
+      font-family: monospace;
+  }
+
+
+  #formDev {
+
+    float: left;
+   
+       
+
+      height: 11.25rem;
+      width: 34.375rem;
+      border: solid;
+      font-size: 15px;
+      color: gray;
+      font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      letter-spacing: 0;
+      
+
+}
+
+
+  
+  #areaDev {
+    
+    float: left;
+    height: 11.25rem;
+    width: 34.375rem;
+    border: solid;
+    
+    
+  }
+
+
+  footer{
+      
+      text-align: center;
+      
+  }
+
+
+
+}
+
+@media only screen and (max-width:800px) {
+  body {
+    font-family: Helvetica;
+  }
+  
+  header {
+    background: #444;
+    height: 100px;
+  }
+  h1{
+      text-align: center;
+  }
+  
+
+  #homeImage {
+    display: block;
+    position: relative;
+    background-image: url(../health2.jpg);
+    width: 100%;
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+  
+  
+  
+  header ul li{
+    display: inline-block;
     margin-top: 40px;
     margin-right: 75px; 
   } 
@@ -47,6 +184,7 @@ body {
 
 
   #itemDev{
+    display: none;
      
      float: left;
 
@@ -72,34 +210,31 @@ body {
   img{
       width: 300px;
       height: 200px;
+      display: inline-block
   }
   
 
   #contentDev{
+    float: left;
 
     
-      width: 1400px;
-      height: 400px;
+      width: 100%;
+      height: 34.375rem;
       border: solid;
       background-color:	#cbd9db;
       font-size: 30px;
       font-family: monospace;
   }
-#container{
-  display: inline-block;
-
-
-}
 
 
   #formDev {
 
-    display: inline-block;
+    float: left;
    
        
 
-      height: 180px;
-      width: 550px;
+      height: 100%;
+      width: 34.375rem;
       border: solid;
       font-size: 15px;
       color: gray;
@@ -107,9 +242,7 @@ body {
       font-style: normal;
       font-weight: 400;
       letter-spacing: 0;
-      border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-
+      
 
 }
 
@@ -117,20 +250,19 @@ body {
   
   #areaDev {
     
-    height: 180px;
-    width: 550px;
+    float: left;
+    height: 100%;
+    width: 34.375rem;
     border: solid;
-    display: inline-block;
+    
     
   }
 
 
   footer{
-      
+    
       text-align: center;
       
   }
-
-
-
+  
 }
