@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,101 +9,109 @@
     <link rel="stylesheet" href="resources/CSS/style.css">
     <title>The title</title>
 </head>
-<body  id="homeImage">
 
-   <!-- the head -->
+<body>
+
+    <!-- the head -->
     <header>
-            <img id="theLogo" src="resources/logo.jpeg" alt="" srcset="">
-            <ul>
-            <li>Diabetes</li>
-            <li> <a href="http://www.diabetes.org/"> GO</a></li></ul>
+        <div class="headerDiv">
+        <img id="theLogo" src="resources/logo.jpeg" alt="" srcset="">
+        
+            <h1>Diabetes</h1>
+             <a href="http://www.diabetes.org/"> GO</a>
+        
     </header>
-
+</div>
     <!--////////// the body -->
 
 
+    <div class="container">
 
 
 
 
-
-    <div id="itemDev">
-            <li>Type 1 diabetes</li> 
+        <aside class="diabetesList">
+            <ul>
+            <li>Type 1 diabetes</li>
             <li>Type 2 diabetes</li>
             <li>Diagnosis</li>
             <li>Treatment</li>
-            <li>Managment</li> 
+            <li>Managment</li>
+        </ul>
+        </aside>
+
+
+
+
+
+
+
+
+
+        <div class="diabetesMeaning">
+            <img src="resources/type-1.jpg" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id praesentium maxime impedit ab illum
+                repudiandae quia odit fugit, error quibusdam consequuntur eius reiciendis. </p>
+        </div>
+
+
+        <!-- Form and area Dev -->
+        <!-- <div class="calcAndMan"> -->
+        
+
+        <section class="calc">
+            <form action="theForm">
+                <p>Insulin Calculator</p>
+                <label for="name">Name: </label>
+                <input type="text">
+                
+
+                <label for="diabetesType">Type of diabetes:</label>
+                <input type="number">
+                
+
+                <label for="CHOintake">How much carbohydrate you take?</label>
+                <input type="number">
+                
+                <button type="submit"> Calculate </button>
+
+            </form>
+        </section>
+
+
+
+        <section class="manag">
+            <p> Diabetes Managment <br> To best manage diabetes, you'll need to take steps to keep your risk factors
+                under control and within the normal range, including: Keep your blood glucose levels as near to normal
+                as possible by following a diet plan, taking prescribed medication and increasing your activity level
+            </p>
+        </section>
+
+
+</div>
+
+
+
+
+
+
+
     </div>
 
 
 
 
 
-         
 
-    <div  id="container">
-
-        <div id="contentDev">
-            <img src="resources/type-1.jpg" alt="">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id praesentium maxime impedit ab illum repudiandae quia odit fugit, error quibusdam consequuntur eius reiciendis. Beatae nostrum atque neque soluta praesentium nulla!</p>
-        </div>
-
-
-            <!-- Form and area Dev -->
-
-
-                <div id="formDev">
-                    <form action="theForm">
-                        <p>Insulin Calculator</p>
-                            <label for="name">Name: </label>
-                            <input type="text"> 
-                            <br>
-
-                            <label for="diabetesType">Type of diabetes:</label>
-                            <input type="number">
-                            <br>
-
-                            <label for="CHOintake">How much carbohydrate you take?</label>
-                            <input type="number">
-                            <br>
-                            <button type="submit"> Calculate </button>
-                            
-                    </form>
-                </div> 
-                
-
-
-                <div  id="areaDev">
-                    <p> Diabetes Managment <br> To best manage diabetes, you'll need to take steps to keep your risk factors under control and within the normal range, including: Keep your blood glucose levels as near to normal as possible by following a diet plan, taking prescribed medication and increasing your activity level
-                    </p>
-                </div>
-
-
-
-            
-
-
-
-
-
-
-    </div> 
-    
-    
-    
-
-          
-    
 
     <!-- footer -->
 
 
 
-    
-        <footer>All rights reserved </footer>
-    
+            
+   <div class="footDiv"> <footer>All rights reserved </footer></div> 
 
-<script src="resources/js/app.js"></script>
+
 
 </body>
 
